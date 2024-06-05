@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zerodha</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section id="navbar">
-        <img src="images\zerodha_logo.svg">
-        <ul> 
-            <li>SignUp</li>
-            <li>Products</li>
-            <li>About</li>
-            <li>Support</li>
-            <li><img src="images\menu.png"></li>
-        </ul>
+      <img src="images\zerodha_logo.svg" />
+      <ul>
+        <li>SignUp</li>
+        <li>Products</li>
+        <li>About</li>
+        <li>Pricing</li>
+        <li>Support</li>
+        <li><img src="images\menu.png" /></li>
+      </ul>
     </section>
-    <hr id="nav-bottom">
+    <hr id="nav-bottom" />
     <section id="main">
-        <ul>
-            <li><img src="https://zerodha.com/static/images/landing.png"></li>
-            <li>
-                <h1>Invest in Everything</h1>
-            </li>
-            <li>
-                <pre>Online platform to invest in stocks, derivatives, mutual funds, and more</pre>
-            </li>
-            <li><button>
-                    Sign Up now
-                </button>
-            </li>
-        </ul>
+      <ul>
+        <li><img src="https://zerodha.com/static/images/landing.png" /></li>
+        <li>
+          <h1>Invest in Everything</h1>
+        </li>
+        <li>
+          <pre>
+Online platform to invest in stocks, derivatives, mutual funds, and more</pre
+          >
+        </li>
+        <li><button>Sign Up now</button></li>
+      </ul>
     </section>
-</body>
-
+    <section id="cal-div">
+      <section id="cal-fields">
+        <label name="amount">Principal</label>
+        <input for="amount" id="amount" />
+        <label name="rate">Rate(%)</label>
+        <input for="rate" id="rate" />
+        <label name="years">Years</label>
+        <input for="years" id="years" />
+        <button id="submit">Calculate</button>
+      </section>
+      <div id="result">Total amount:</div>
+    </section>
+  </body>
+  <script src="script.js"></script>
 </html>

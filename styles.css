@@ -1,3 +1,6 @@
+*{
+font-family: 'Inter';
+}
 #navbar {
   display: flex;
   margin-left: 50%;
@@ -9,26 +12,23 @@
   display: flex;
   list-style: none;
   margin: 20px;
-  font-family: 'Inter';
 }
 #navbar li {
-  padding: 20px 40px 20px 30px;
+  padding: 20px 20px 20px 30px;
   font-size: 16px;
-    color: #424242;
-    opacity: 0.8; 
+  color: #424242;
+  opacity: 0.8;
 }
 
 #navbar img {
   margin-left: -600px;
   margin-right: 400px;
-  font-family: "Inter";
   color: #387ed1;
   max-height: 17px;
 }
 
 #navbar li img {
   margin-left: 5px;
-  font-family: "Inter";
   max-height: 17px;
 }
 
@@ -51,7 +51,6 @@
 #main li h1,
 pre {
   font-size: 44px;
-  font-family: "Inter";
   color: #424242;
 }
 
@@ -73,11 +72,49 @@ pre {
   border: none;
 }
 
-#main li button:hover{
-  cursor:pointer;
+#main li button:hover {
+  cursor: pointer;
 }
 #main img {
   margin: 50px 0 60px;
   width: 50%;
   margin-left: 25%;
+}
+
+
+#cal-div{
+  display: flex;
+  margin: auto;
+  margin-left: 36.5%;
+  margin-right: 50%;
+  margin-top: 40px;
+  padding: 10px 0;
+  border: 1px solid black;
+  width: 30%;
+  justify-content: center;
+  background-color: RGB(217 212 212);
+  background: contain;
+}
+
+#cal-fields{
+  margin-left: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+#cal-fields input, label{
+  margin: 3px;
+}
+
+#result{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 60%;
+  margin-left:25px;
+}
+
+#submit{
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
 }
