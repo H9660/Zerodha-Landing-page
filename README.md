@@ -30,7 +30,7 @@ Welcome to the Zerodha Landing Page Project! This project is a recreation of the
 
 <h2>Overview⭐</h2>
 
-### Live Project -- [https://github.com/H9660/Zerodha-Landing-page/tree/main](https://zerodha-landing-page-phi.vercel.app/)
+### Live Project -- [Zerodha Landing page](https://zerodha-landing-page-phi.vercel.app/)
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 <p align="right">(<a href="#top">back to top</a>)</p>
