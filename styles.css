@@ -102,6 +102,12 @@ pre {
   flex-direction: column;
 }
 
+#cal-fields h1{
+  white-space: nowrap;
+  position: relative;
+  margin-left: 40%;
+}
+
 #cal-fields input, label{
   margin: 3px;
 }
