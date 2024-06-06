@@ -2,22 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zerodha</title>
   </head>
 
   <body>
+    <div id="supported">
     <section id="navbar">
-      <img src="images\zerodha_logo.svg" />
+      <img src="images\zerodha_logo.svg" id="logo"/></li>
       <ul>
         <li>SignUp</li>
         <li>Products</li>
         <li>About</li>
         <li>Pricing</li>
-        <li>Support</li>
-        <li><img src="images\menu.png" /></li>
+        <li>Support</li> 
       </ul>
+      <img src="images\menu.png" id="menu"/></li>
     </section>
     <hr id="nav-bottom" />
     <section id="main">
@@ -34,20 +35,25 @@ Online platform to invest in stocks, derivatives, mutual funds, and more</pre
         <li><button>Sign Up now</button></li>
       </ul>
     </section>
-    <section id="cal-div">
-      
-      <section id="cal-fields">
-        <h1>Simple interest calculator</h1>
-        <label name="amount">Principal</label>
-        <input for="amount" id="amount" />
-        <label name="rate">Rate(%)</label>
-        <input for="rate" id="rate" />
-        <label name="years">Years</label>
-        <input for="years" id="years" />
-        <button id="submit">Calculate</button>
+      <section id="cal-div">
+        <section id="cal-fields">
+          <h1>Simple interest calculator</h1>
+          <label name="amount">Principal</label>
+          <input for="amount" id="amount" />
+          <label name="rate">Rate(%)</label>
+          <input for="rate" id="rate" />
+          <label name="years">Years </label>
+          <input for="years" id="years" />
+          <ul>
+          <li><button id="submit">Calculate</button></li>
+          <li><button id="reset">Reset</button></li>
+          </ul>
+        </section>
       </section>
-      <div id="result"></div>
-    </section>
+      <div id="result">Total amount: 0</div>
+    </div>
+    <div id="not-supported">Device not compatible</div>
   </body>
-  <script src="script.js"></script>
+  
+  <script src="/scripts/script.js"></script>
 </html>

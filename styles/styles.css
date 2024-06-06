@@ -1,0 +1,193 @@
+* {
+  font-family: "Inter";
+}
+
+#navbar {
+  display: flex;
+  margin-top: -20px;
+  justify-content: space-between;
+}
+
+#logo, #menu {
+  color: #387ed1;
+  max-height: 15px;
+  margin: auto;
+}
+
+#logo{
+  margin-left: 30%;
+}
+#menu{
+  display: none;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  margin-right: 25%;
+}
+
+#navbar ul li {
+  padding: 20px 20px 20px 30px;
+  font-size: 16px;
+  color: #424242;
+  opacity: 0.8;
+}
+
+#nav-bottom {
+  margin-top: -15px;
+  height: 1.5px;
+  background-color: grey;
+  opacity: 0.08;
+}
+
+#main ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+#main ul img {
+  margin: 50px 60px;
+  width: 50%;
+  margin-left: 25%;
+}
+#main li {
+  margin: auto;
+}
+
+#main li h1,
+pre {
+  text-align: center;
+  color: #424242;
+  white-space: pre-wrap;
+}
+
+#main li h1 {
+  font-size: 44px;
+  text-align: center;
+  margin: 36.52px 0px;
+}
+
+#main li pre {
+  margin-top: -20px;
+  font-size: 20px;
+}
+
+#main li button {
+  box-shadow: 10px 10px 10px 1px #000;
+  background-color: #387ed1;
+  color: white;
+  margin: 25px 0px 0px;
+  padding: 10px 30px;
+  font-size: 19.2px;
+  border: none;
+  transition: 0.5s ease;
+}
+
+#calculator{
+  justify-content: space-around;
+}
+#main li button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: -10px -10px 15px 6px #000;
+  background-image: url("images/menu.png");
+}
+
+#cal-div {
+  display: flex;
+  margin: 40px auto auto auto;
+  padding: 10px;
+  border: 1px solid black;
+  width: 400px;
+  justify-content: center;
+  background-color: RGB(217 212 212);
+}
+
+#cal-fields{
+  display: flex;
+  flex-direction: column;
+}
+
+#cal-fields h1 {
+  white-space: nowrap;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#cal-fields input,
+label {
+  margin: 3px;
+}
+
+#cal-fields ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#result {
+  text-align: center;
+  padding: 10px;
+  background-color: RGB(217 212 212);
+  justify-content: center;
+  width: 400px;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+#submit {
+  margin: auto;
+  margin-left: -35px;
+  align-self: center;
+}
+
+#not-supported{
+  display: none;
+}
+/* For devices with a maximum width of 767px */
+@media (max-width: 850px) {
+  #navbar ul li:nth-child(n + 1):nth-child(-n + 5) {
+    display: none;
+    /* Your styles for the selected elements */
+  }
+  
+  #menu, #logo{
+    margin: 20px;
+  }
+
+  #menu{
+    display: block;
+  }
+
+  #main ul img {
+  /* margin: 50px 60px; */
+  width: 100%;
+  margin: 50px auto 50px auto;
+}
+  /* Your CSS rules for small screens */
+}
+
+/* For devices with a minimum width of 768px and a maximum width of 991px */
+@media (max-width: 300px) {
+  #supported{
+    display: none;
+    /* background-color: black; */
+  }
+
+  #not-supported{
+    display: block;
+    text-align: center;
+    margin-top: 100%;
+    color: white;
+    /* background-color: black; */
+  }
+
+  *{
+    background-color: black;
+  }
+  /* Your CSS rules for medium screens */
+}
+
+
