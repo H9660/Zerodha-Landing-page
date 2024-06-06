@@ -15,6 +15,7 @@
 <h2>Introduction📌</h2>
 
 Welcome to the Zerodha Landing Page Project! This project is a recreation of the landing page for Zerodha, a popular online stock trading platform. The goal of this project is to showcase web development skills, including HTML, CSS, and JavaScript, by replicating the design and functionality of the Zerodha landing page.
+Note: I searched a lot about the responsive design of this page but I could not find any one expect that they were fake. So I tried creating a responsiveness design myself.
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
